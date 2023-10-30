@@ -4,6 +4,17 @@
     <TargetFramework>netstandard2.0</TargetFramework>
 	<EnablePackageValidation>true</EnablePackageValidation>
 	  
+	<PackageId>ChameleonConsole</PackageId>
+	<Authors>Mark7888</Authors>
+	<Description>ChameleonConsole is a versatile C# library that empowers developers to add dynamic and expressive text styling to console applications. Whether you're building a command-line tool, a terminal application, or simply want to enhance the visual appeal of your console output, ChameleonConsole provides a convenient and intuitive way to play with colors.</Description>
+
+	<PackageProjectUrl>https://github.com/Mark7888/ChameleonConsole/wiki</PackageProjectUrl>
+	<PackageTags>console, color, colors, c#, csharp, .NET, dotnet, text, formatting, textformatting, terminal, consoleoutput, cli, commandline, developer, developertools, library</PackageTags>
+
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<PackageIcon>icon.png</PackageIcon>
+	
 	<GenerateDocumentationFile>True</GenerateDocumentationFile>
 	<!-- If all members are not documented, you can disable the compiler warnings -->
 	<NoWarn>$(NoWarn);CS1591</NoWarn>
@@ -14,6 +25,9 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+
+	<None Include="$(SolutionDir)\README.md" Pack="true" PackagePath=""/>
+	<None Include="icon.png" Pack="true" PackagePath=""/>
   </ItemGroup>
 
 </Project>
