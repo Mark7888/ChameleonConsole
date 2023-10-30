@@ -1,6 +1,8 @@
 # ChameleonConsole - Dynamic Console Text Styling for C#
 
 ChameleonConsole is a versatile C# library that empowers developers to add dynamic and expressive text styling to console applications. Whether you're building a command-line tool, a terminal application, or simply want to enhance the visual appeal of your console output, ChameleonConsole provides a convenient and intuitive way to play with colors.
+ChameleonConsole draws inspiration from the renowned [Colorama](https://pypi.org/project/colorama/) Python library, bringing the joy of easy and vibrant text coloring to the C# world.
+Explore the endless possibilities of dynamic console styling with **ChameleonConsole**!
 
 ## Key Features
 
