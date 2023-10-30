@@ -26,9 +26,11 @@ nestedExample.Write();
 ## Getting Started
 
 1. **Install the Package:**
+   ChameleonConsole is available as a NuGet package. You can install it using the following command:
    ```bash
    dotnet add package ChameleonConsole
    ```
+   Visit the [ChameleonConsole NuGet Package](https://www.nuget.org/packages/ChameleonConsole/) page for more details and version history.
 
 2. **Usage:**
    ```csharp
