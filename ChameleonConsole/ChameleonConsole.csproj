@@ -25,9 +25,13 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="MinVer" Version="4.3.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
 
-	<None Include="$(SolutionDir)\README.md" Pack="true" PackagePath=""/>
-	<None Include="icon.png" Pack="true" PackagePath=""/>
+	<None Include="$(SolutionDir)\README.md" Pack="true" PackagePath="" />
+	<None Include="icon.png" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
