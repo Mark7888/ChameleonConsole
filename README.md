@@ -1,3 +1,4 @@
+[![publish](https://github.com/Mark7888/ChameleonConsole/actions/workflows/publish.yml/badge.svg)](https://github.com/Mark7888/ChameleonConsole/actions/workflows/publish.yml)
 # ChameleonConsole - Dynamic Console Text Styling for C#
 
 ChameleonConsole is a versatile C# library that empowers developers to add dynamic and expressive text styling to console applications. Whether you're building a command-line tool, a terminal application, or simply want to enhance the visual appeal of your console output, ChameleonConsole provides a convenient and intuitive way to play with colors.
